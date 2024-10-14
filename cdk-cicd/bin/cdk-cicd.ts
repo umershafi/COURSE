@@ -5,5 +5,6 @@ import { CdkCicdStack } from '../lib/cdk-cicd-stack';
 
 const app = new cdk.App();
 new CdkCicdStack(app, 'CdkCicdStack', {
-  
 });
+
+app.synth();
